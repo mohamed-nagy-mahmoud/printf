@@ -14,11 +14,11 @@ int selector(const char *format, va_list arguments, int s)
 	{
 		case 'd':
 		case 'i':
-			printed = printf_integer(arguments, s);
+			s = printf_integer(arguments, s);
 			break;
 		case 'c':
 			_putchar(va_arg(arguments, int));
-			printed++;
+			s++;
 			break;
 		case 's':
 			s = printf_string(arguments, s);
