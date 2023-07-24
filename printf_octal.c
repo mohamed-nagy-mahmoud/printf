@@ -21,7 +21,7 @@ int printf_octal(unsigned int n, int s)
 		n /= 8;
 	}
 
-	if (i == 0)
+	if (a == 0)
 	{
 		putchar('0');
 		s++;

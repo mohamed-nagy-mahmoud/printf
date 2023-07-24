@@ -8,9 +8,9 @@
  * Return: s charcaters
  */
 
-int printf_integer(va_list arguements, int s)
+int printf_integer(va_list arguments, int s)
 {
-	int n = va_arg(arguements, int s);
+	int n = va_arg(arguments, int s);
 	int Glyphs = 0;
 	int temp = n;
 	int Glyph;

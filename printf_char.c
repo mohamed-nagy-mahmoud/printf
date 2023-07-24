@@ -8,7 +8,7 @@
  * Return: s charcaters success
  */
 
-int printf_char(va_list arguements, int s)
+int printf_char(va_list arguments, int s)
 {
 	int character = va_arg(arguments, int);
 

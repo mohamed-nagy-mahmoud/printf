@@ -42,7 +42,7 @@ int _x(unsigned int n, int s, int capital_letter)
 	}
 	else
 	{
-		for (b = i - 1; b >= 0; b--)
+		for (b = a - 1; b >= 0; b--)
 		{
 			putchar(heximal[b]);
 			s++;
