@@ -10,7 +10,7 @@
 
 int printf_integer(va_list arguments, int s)
 {
-	int n = va_arg(arguments, int s);
+	int n = va_arg(arguments, int);
 	int Glyphs = 0;
 	int temp = n;
 	int Glyph;
